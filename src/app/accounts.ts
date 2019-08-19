@@ -3,7 +3,7 @@ export const accounts = [
     name: 'Francesco Saverio Comisso',
     age: 25,
     description: 'The smart one',
-    imagePath: './assets/francesco1.jpg'
+    imagePath: 'francesco1.jpg'
     ,facebook:''
     ,linkedin:''
     ,instagram:''
@@ -13,7 +13,7 @@ export const accounts = [
     name: 'Edoardo Scian',
     age: 25,
     description: 'The tall and handsome one',
-    picture: ''
+    imagePath: 'francesco1.jpg'
     ,facebook:''
     ,linkedin:''
     ,instagram:''
