@@ -14,8 +14,9 @@ import { CartService } from './cart.service';
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    RouterModule.forRoot([
+     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+      { path: 'products/:productId', component: ProductDetailsComponent },
     ])
   ],
   declarations: [
