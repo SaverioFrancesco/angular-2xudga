@@ -4,12 +4,19 @@ export const accounts = [
     age: 25,
     description: 'The smart one',
     picture: ''
+    ,facebook:''
+    ,linkedin:''
+    ,instagram:''
+    ,bio:'Machine learning expert an senior artificial inteligence scientist'
   },
   {
     name: 'Edoardo Scian',
     age: 25,
     description: 'The tall and handsome one',
     picture: ''
+    ,facebook:''
+    ,linkedin:''
+    ,instagram:''
   }
 ];
 
