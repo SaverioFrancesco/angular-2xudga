@@ -3,7 +3,7 @@ export const accounts = [
     name: 'Francesco Saverio Comisso',
     age: 25,
     description: 'The smart one',
-    imagePath: 'assets/francesco1.jpg'
+    imagePath: 'https://source.unsplash.com/collection/190727/200x200'
     ,facebook:''
     ,linkedin:''
     ,instagram:''
