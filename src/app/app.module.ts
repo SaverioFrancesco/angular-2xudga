@@ -10,6 +10,8 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartService } from './cart.service';
 import { PersonalPageComponent } from './personal-page/personal-page.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { ProjectPageComponent } from './project-page/project-page.component';
 
 @NgModule({
   imports: [
@@ -19,6 +21,7 @@ import { PersonalPageComponent } from './personal-page/personal-page.component';
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'personal/:nameId', component: PersonalPageComponent },
+      { path: 'assets/', component: PersonalPageComponent },
     ])
   ],
   declarations: [
@@ -27,7 +30,9 @@ import { PersonalPageComponent } from './personal-page/personal-page.component';
     ProductListComponent,
     ProductAlertsComponent,
     ProductDetailsComponent,
-    PersonalPageComponent
+    PersonalPageComponent,
+    HomePageComponent,
+    ProjectPageComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
